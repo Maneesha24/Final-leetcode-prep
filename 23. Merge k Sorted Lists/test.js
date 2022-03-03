@@ -6,7 +6,7 @@ class ListNode {
     }
 }
 
-test('should return pass all test conditions', () => {
+test('should pass all test conditions', () => {
     let list1 = new ListNode(1);
     list1.next = new ListNode(4);
     list1.next.next = new ListNode(5);
