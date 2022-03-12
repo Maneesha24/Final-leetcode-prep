@@ -16,7 +16,7 @@ var isSameTree = function (p, q) {
         return false;
     }
 
-    return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    return isSameTree(p.left, q.left) && isSame(p.right, q.right);
 };
 
 module.exports = isSameTree;
