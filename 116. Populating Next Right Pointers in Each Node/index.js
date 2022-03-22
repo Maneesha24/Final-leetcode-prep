@@ -21,6 +21,7 @@ var connect = function (root) {
         for (let i = 0; i < size; i++) {
             let node = queue.shift();
             node.next = queue[0] || null;
+            
             if (node.left) {
                 level.push(node.left);
             }

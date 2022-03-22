@@ -10,7 +10,6 @@ var isSymmetric = function (root) {
         return true;
     }
 
-
     const traverse = (p, q) => {
         if(!p && !q) {
             return true;

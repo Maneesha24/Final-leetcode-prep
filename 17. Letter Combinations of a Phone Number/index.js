@@ -23,7 +23,6 @@
 
     const dfs = (index, currentStr) => {
         if(currentStr.length == digits.length) {
-            
             result.push(currentStr);
             return;
         }
